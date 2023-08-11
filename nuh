@@ -1,0 +1,270 @@
+-- Gui to Lua
+
+
+-- Version: 3.2
+
+
+
+-- Instances:
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+
+
+local Frame = Instance.new("Frame")
+
+
+local TextLabel = Instance.new("TextLabel")
+
+
+local PathESP = Instance.new("TextButton")
+
+
+local FlingAll = Instance.new("TextButton")
+
+
+local Btools = Instance.new("TextButton")
+
+
+local THANK = Instance.new("TextLabel")
+
+
+local Keyboard = Instance.new("TextButton")
+
+
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+
+
+
+--Properties:
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+
+
+Frame.Parent = ScreenGui
+
+
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Frame.Position = UDim2.new(0.234670699, 0, 0.124430954, 0)
+
+
+Frame.Size = UDim2.new(0, 477, 0, 326)
+
+
+Frame.Active = true
+
+
+Frame.Draggable = true
+
+
+
+TextLabel.Parent = Frame
+
+
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+TextLabel.Size = UDim2.new(0, 326, 0, 56)
+
+
+TextLabel.Font = Enum.Font.SourceSans
+
+
+TextLabel.Text = "99% Fail Impossible Obby GUI"
+
+
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+TextLabel.TextScaled = true
+
+
+TextLabel.TextSize = 14.000
+
+
+TextLabel.TextWrapped = true
+
+
+
+
+PathESP.Name = "PathESP"
+
+
+PathESP.Parent = Frame
+
+
+PathESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+PathESP.Position = UDim2.new(0.0357894413, 0, 0.23780486, 0)
+
+
+PathESP.Size = UDim2.new(0, 149, 0, 50)
+
+
+PathESP.Font = Enum.Font.SourceSans
+
+
+PathESP.Text = "Path ESP"
+
+
+PathESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+PathESP.TextScaled = true
+
+
+PathESP.TextSize = 14.000
+
+
+PathESP.TextWrapped = true
+
+
+
+FlingAll.Name = "FlingAll"
+
+
+FlingAll.Parent = Frame
+
+
+FlingAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+FlingAll.Position = UDim2.new(0.553742409, 0, 0.23780486, 0)
+
+
+FlingAll.Size = UDim2.new(0, 133, 0, 50)
+
+
+FlingAll.Font = Enum.Font.SourceSans
+
+
+FlingAll.Text = "Fling All (needed the high seas beatrix the pirate queen head)"
+
+
+FlingAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+FlingAll.TextScaled = true
+
+
+FlingAll.TextSize = 14.000
+
+
+FlingAll.TextWrapped = true
+
+
+
+Btools.Name = "Btools"
+
+
+Btools.Parent = Frame
+
+
+Btools.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Btools.Position = UDim2.new(0.0357894413, 0, 0.478658468, 0)
+
+
+Btools.Size = UDim2.new(0, 149, 0, 50)
+
+
+Btools.Font = Enum.Font.SourceSans
+
+
+Btools.Text = "OrdenHub (key is fisd04kfspfdr)"
+
+
+Btools.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Btools.TextScaled = true
+
+
+Btools.TextSize = 14.000
+
+
+Btools.TextWrapped = true
+
+
+
+THANK.Name = "THANK"
+
+
+THANK.Parent = Frame
+
+
+THANK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+THANK.Position = UDim2.new(0, 0, 0.829268277, 0)
+
+
+THANK.Size = UDim2.new(0, 326, 0, 56)
+
+
+THANK.Font = Enum.Font.SourceSans
+
+
+THANK.Text = "This GUI only works on 99% fail Impossible Obby,every executers possible works on this UI"
+
+
+THANK.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+THANK.TextScaled = true
+
+
+THANK.TextSize = 14.000
+
+
+THANK.TextWrapped = true
+
+
+
+Keyboard.Name = "Keyboard"
+
+
+Keyboard.Parent = Frame
+
+
+Keyboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+
+Keyboard.Position = UDim2.new(0.553742409, 0, 0.478658468, 0)
+
+
+Keyboard.Size = UDim2.new(0, 133, 0, 50)
+
+
+Keyboard.Font = Enum.Font.SourceSans
+
+
+Keyboard.Text = "Keyboard Script (recommended for BTools if your using Acreus X)"
+
+
+Keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+Keyboard.TextScaled = true
+
+
+Keyboard.TextSize = 14.000
+
+
+Keyboard.TextWrapped = true
+
+
+
+UIAspectRatioConstraint.Parent = Frame
